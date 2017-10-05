@@ -33,7 +33,7 @@ function makeInt(a){
 makeInt("10");
 
 function makeInt(a){
-  return parseInt(a,10);
+  return parseInt(a);
 }
 makeInt("9000");
 
