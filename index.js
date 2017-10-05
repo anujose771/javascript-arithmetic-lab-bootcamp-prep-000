@@ -33,7 +33,7 @@ function makeInt(a){
 makeInt("10");
 
 function makeInt(a){
-  return parseInt(a,10);
+  return parseInt(parseInt(a,10));
 }
 makeInt('0x2328');
 
