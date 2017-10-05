@@ -33,9 +33,9 @@ function makeInt(a){
 makeInt("10");
 
 function makeInt(a){
-  return parseInt(parseInt(a,10));
+  return parseInt(a,10);
 }
-makeInt('0x2328');
+makeInt("9000");
 
 function makeInt(a){
   return parseInt(a);
