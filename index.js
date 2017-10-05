@@ -28,7 +28,7 @@ console.log(inc(a))
 console.log(dec(a));
 
 function makeInt(a){
-  return parseInt(a);
+  return parseInt(a,10);
 }
 makeInt("10");
 makeInt("9000");
