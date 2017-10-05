@@ -32,10 +32,10 @@ function makeInt(a){
 }
 makeInt("10");
 
-function makeInt(a,base){
-  return parseInt(a,base);
+function makeInt(a){
+  return parseInt(a,10);
 }
-makeInt('0x2328',10);
+makeInt('0x2328');
 
 function makeInt(a){
   return parseInt(a);
