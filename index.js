@@ -31,15 +31,7 @@ function makeInt(a){
   return parseInt(a);
 }
 makeInt("10");
-
-function makeInt(a){
-  return parseInt(a);
-}
 makeInt("9000");
-
-function makeInt(a){
-  return parseInt(a);
-}
 makeInt("sldkjflksjf");
 
 function preserveDecimal(a){
